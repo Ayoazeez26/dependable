@@ -182,8 +182,8 @@
           </div>
           <img
             class="w-full max-w-[580px]"
-            src="/img/living.png"
-            alt="living"
+            src="/img/dom-img.png"
+            alt="dom img"
           />
         </div>
       </div>
