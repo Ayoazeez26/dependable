@@ -1,5 +1,4 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 <template>
   <div class="bg-light-red py-[60px] lg:py-[120px]">
     <div class="flex flex-col mx-auto px-4 xl:px-0 w-full max-w-[1240px]">
@@ -14,13 +13,16 @@
           </h2>
         </div>
         <p class="text-grey2 mt-3 lg:mt-0 text-lg w-full max-w-[608px]">
-          We're here to support you in reclaiming freedom, connecting with your community, and reaching your full potential. No matter your age or situation, we believe in unlocking boundless adventures for all.
+          We're here to support you in reclaiming freedom, connecting with your
+          community, and reaching your full potential. No matter your age or
+          situation, we believe in unlocking boundless adventures for all.
         </p>
       </div>
-      <div
-        class="flex justify-center md:justify-start flex-wrap mt-10"
-      >
-        <img src="/img/serve-bg.png" alt="doctor attending to aged man">
+      <div class="flex justify-center md:justify-start flex-wrap mt-10">
+        <img
+          src="https://s3.eu-west-2.amazonaws.com/dependable.com/serve-bg.png"
+          alt="doctor attending to aged man"
+        />
       </div>
     </div>
     <div id="services" />

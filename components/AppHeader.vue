@@ -4,7 +4,10 @@
       class="flex h-24 md:h-[120px] items-center justify-between px-4 px-md-0 w-full max-w-[1240px] mx-auto"
     >
       <nuxt-link to="/">
-        <img class="w-[170px]" src="/img/logo.png" />
+        <img
+          class="w-[170px]"
+          src="https://s3.eu-west-2.amazonaws.com/dependable.com/logo.png"
+        />
       </nuxt-link>
       <button ref="hamburger" class="lg:hidden" @click="open = !open">
         <Icon name="ic:round-menu" size="24px" color="#1B5588" />
@@ -64,7 +67,7 @@
           class="hidden lg:flex flex-col w-full lg:w-auto lg:flex-row lg:items-center gap-4"
         >
           <nuxt-link
-            to="/"
+            to="/contact"
             class="bg-secondary border-2 border-secondary font-medium py-3 px-10 rounded-lg text-white"
           >
             Get in Touch
@@ -72,7 +75,10 @@
         </div>
         <div class="flex w-full mt-3 lg:hidden justify-between items-center">
           <nuxt-link to="/">
-            <img class="w-[102px]" src="/img/logo.png" />
+            <img
+              class="w-[102px]"
+              src="https://s3.eu-west-2.amazonaws.com/dependable.com/logo.png"
+            />
           </nuxt-link>
           <button class="" @click="open = !open">
             <Icon name="ic:round-close" size="24px" color="#1B5588" />
@@ -97,7 +103,7 @@
             class="flex flex-col w-full lg:w-auto lg:flex-row lg:items-center gap-4"
           >
             <nuxt-link
-              to="/"
+              to="/contact"
               class="bg-secondary border-2 border-secondary text-center font-semibold py-3 px-10 rounded-lg text-white"
             >
               Get in Touch

@@ -8,7 +8,7 @@
         >
           <img
             class="w-full max-w-[580px]"
-            src="/img/living.png"
+            src="https://s3.eu-west-2.amazonaws.com/dependable.com/living.png"
             alt="living"
           />
           <div class="flex flex-col w-full max-w-[612px]">
@@ -30,8 +30,12 @@
       </div>
     </div>
     <div class="py-20 md:py-16 mx-auto w-full max-w-[1240px] overflow-x-hidden">
-      <div class="w-full flex  gap-6 items-center justify-start overflow-x-auto lg:hidden">
-        <div class="flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]">
+      <div
+        class="w-full flex gap-6 items-center justify-start overflow-x-auto lg:hidden"
+      >
+        <div
+          class="flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]"
+        >
           <div class="bg-lime w-14 h-14 flex items-center justify-center">
             <img class="w-6" src="/svg/blue-star.svg" alt="blue star" />
           </div>
@@ -39,7 +43,9 @@
             Oral hygiene
           </h5>
         </div>
-        <div class="flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]">
+        <div
+          class="flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]"
+        >
           <div class="bg-brown w-14 h-14 flex items-center justify-center">
             <img class="w-6" src="/svg/blue-star.svg" alt="blue star" />
           </div>
@@ -47,7 +53,9 @@
             Washing needs
           </h5>
         </div>
-        <div class="flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]">
+        <div
+          class="flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]"
+        >
           <div class="bg-lime w-14 h-14 flex items-center justify-center">
             <img class="w-6" src="/svg/blue-star.svg" alt="blue star" />
           </div>
@@ -55,7 +63,9 @@
             Shaving needs
           </h5>
         </div>
-        <div class="flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]">
+        <div
+          class="flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]"
+        >
           <div class="bg-brown w-14 h-14 flex items-center justify-center">
             <img class="w-6" src="/svg/blue-star.svg" alt="blue star" />
           </div>
@@ -63,7 +73,9 @@
             Medication Assistance
           </h5>
         </div>
-        <div class="flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]">
+        <div
+          class="flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]"
+        >
           <div class="bg-lime w-14 h-14 flex items-center justify-center">
             <img class="w-6" src="/svg/blue-star.svg" alt="blue star" />
           </div>
@@ -71,7 +83,9 @@
             Feeding assistance
           </h5>
         </div>
-        <div class="flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]">
+        <div
+          class="flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]"
+        >
           <div class="bg-brown w-14 h-14 flex items-center justify-center">
             <img class="w-6" src="/svg/blue-star.svg" alt="blue star" />
           </div>
@@ -79,7 +93,9 @@
             Shopping
           </h5>
         </div>
-        <div class="flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]">
+        <div
+          class="flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]"
+        >
           <div class="bg-lime w-14 h-14 flex items-center justify-center">
             <img class="w-6" src="/svg/blue-star.svg" alt="blue star" />
           </div>
@@ -87,7 +103,9 @@
             Toileting needs
           </h5>
         </div>
-        <div class="flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]">
+        <div
+          class="flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]"
+        >
           <div class="bg-brown w-14 h-14 flex items-center justify-center">
             <img class="w-6" src="/svg/blue-star.svg" alt="blue star" />
           </div>
@@ -97,7 +115,9 @@
         </div>
       </div>
       <div class="w-full flex flex-wrap gap-8 items-center justify-center">
-        <div class="hidden lg:flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]">
+        <div
+          class="hidden lg:flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]"
+        >
           <div class="bg-lime w-14 h-14 flex items-center justify-center">
             <img class="w-6" src="/svg/blue-star.svg" alt="blue star" />
           </div>
@@ -105,7 +125,9 @@
             Oral hygiene
           </h5>
         </div>
-        <div class="hidden lg:flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]">
+        <div
+          class="hidden lg:flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]"
+        >
           <div class="bg-brown w-14 h-14 flex items-center justify-center">
             <img class="w-6" src="/svg/blue-star.svg" alt="blue star" />
           </div>
@@ -113,7 +135,9 @@
             Washing needs
           </h5>
         </div>
-        <div class="hidden lg:flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]">
+        <div
+          class="hidden lg:flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]"
+        >
           <div class="bg-lime w-14 h-14 flex items-center justify-center">
             <img class="w-6" src="/svg/blue-star.svg" alt="blue star" />
           </div>
@@ -121,7 +145,9 @@
             Shaving needs
           </h5>
         </div>
-        <div class="hidden lg:flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]">
+        <div
+          class="hidden lg:flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]"
+        >
           <div class="bg-brown w-14 h-14 flex items-center justify-center">
             <img class="w-6" src="/svg/blue-star.svg" alt="blue star" />
           </div>
@@ -129,8 +155,14 @@
             Medication Assistance
           </h5>
         </div>
-        <img class="w-full max-w-[488px]" src="/img/nurse.png" alt="nurse">
-        <div class="hidden lg:flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]">
+        <img
+          class="w-full max-w-[488px]"
+          src="https://s3.eu-west-2.amazonaws.com/dependable.com/nurse.png"
+          alt="nurse"
+        />
+        <div
+          class="hidden lg:flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]"
+        >
           <div class="bg-lime w-14 h-14 flex items-center justify-center">
             <img class="w-6" src="/svg/blue-star.svg" alt="blue star" />
           </div>
@@ -138,7 +170,9 @@
             Feeding assistance
           </h5>
         </div>
-        <div class="hidden lg:flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]">
+        <div
+          class="hidden lg:flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]"
+        >
           <div class="bg-brown w-14 h-14 flex items-center justify-center">
             <img class="w-6" src="/svg/blue-star.svg" alt="blue star" />
           </div>
@@ -146,7 +180,9 @@
             Shopping
           </h5>
         </div>
-        <div class="hidden lg:flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]">
+        <div
+          class="hidden lg:flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]"
+        >
           <div class="bg-lime w-14 h-14 flex items-center justify-center">
             <img class="w-6" src="/svg/blue-star.svg" alt="blue star" />
           </div>
@@ -154,7 +190,9 @@
             Toileting needs
           </h5>
         </div>
-        <div class="hidden lg:flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]">
+        <div
+          class="hidden lg:flex flex-col items-center text-center px-6 py-4 xl:px-0 xl:py-0 min-w-max xl:w-[344px]"
+        >
           <div class="bg-brown w-14 h-14 flex items-center justify-center">
             <img class="w-6" src="/svg/blue-star.svg" alt="blue star" />
           </div>
@@ -177,12 +215,17 @@
               We help people of all ages and abilities thrive in their own homes
             </h2>
             <p class="md:text-lg mt-6 md:leading-7">
-              Dependable Healthcare's domiciliary care services empower people of all ages and abilities to thrive at home. Our skilled and compassionate visiting carers provide personalized support, fostering well-being, companionship, and a sense of belonging. With a focus on respect and dignity, we help our clients lead fulfilling lives in their cherished familiar surroundings.
+              Dependable Healthcare's domiciliary care services empower people
+              of all ages and abilities to thrive at home. Our skilled and
+              compassionate visiting carers provide personalized support,
+              fostering well-being, companionship, and a sense of belonging.
+              With a focus on respect and dignity, we help our clients lead
+              fulfilling lives in their cherished familiar surroundings.
             </p>
           </div>
           <img
             class="w-full max-w-[580px]"
-            src="/img/living.png"
+            src="https://s3.eu-west-2.amazonaws.com/dependable.com/living.png"
             alt="living"
           />
         </div>

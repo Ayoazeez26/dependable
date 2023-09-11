@@ -56,7 +56,7 @@
           class="hidden lg:flex flex-col w-full lg:w-auto lg:flex-row lg:items-center gap-4"
         >
           <nuxt-link
-            to="/"
+            to="/contact"
             class="bg-secondary border-2 border-secondary font-semibold py-3 px-10 rounded-lg text-white"
           >
             Get in Touch
@@ -89,7 +89,7 @@
             class="flex flex-col w-full lg:w-auto lg:flex-row lg:items-center gap-4"
           >
             <nuxt-link
-              to="/"
+              to="/contact"
               class="bg-secondary border-2 border-secondary text-center font-semibold py-3 px-10 rounded-lg text-white"
             >
               Get in Touch

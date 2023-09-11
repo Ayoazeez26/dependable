@@ -45,7 +45,7 @@ const prev = () => {
             </p>
             <div class="flex flex-col w-auto lg:flex-row lg:items-center gap-4">
               <nuxt-link
-                to="/"
+                to="/contact"
                 class="bg-secondary border-2 border-secondary text-center font-medium py-3 px-10 rounded-lg text-white"
               >
                 Get in Touch
@@ -55,7 +55,7 @@ const prev = () => {
         </div>
         <img
           class="w-full my-10 md:mt-0 max-w-[580px]"
-          src="/img/img-group.png"
+          src="https://s3.eu-west-2.amazonaws.com/dependable.com/img-group.png"
           alt="care group"
         />
       </div>

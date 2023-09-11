@@ -25,12 +25,14 @@ const next = () => {
 
 const prev = () => {
   carousel.value.prev();
-}
+};
 </script>
 <template>
   <div class="py-[120px] lg:pb-[240px] relative">
     <div class="flex flex-col mx-auto px-4 xl:px-0 w-full max-w-[1240px]">
-      <div class="flex flex-col justify-between lg:flex-row lg:items-center w-full">
+      <div
+        class="flex flex-col justify-between lg:flex-row lg:items-center w-full"
+      >
         <div class="md:w-[572px] relative">
           <div class="absolute bottom-0 right-0 gap-4 flex z-[1]">
             <button
@@ -43,7 +45,7 @@ const prev = () => {
               @click="next"
               class="flex min-w-max bg-white border border-grey-3 w-14 md:w-16 h-14 md:h-16 rounded-lg items-center justify-center mt-2"
             >
-              <Icon name="mdi:arrow-right" size="28"/>
+              <Icon name="mdi:arrow-right" size="28" />
             </button>
           </div>
           <Carousel ref="carousel" :items-to-show="1" class="w-full">
@@ -51,8 +53,16 @@ const prev = () => {
               <div
                 class="carousel__item max-w-[528px] flex flex-col items-start"
               >
-                <img class="w-16" src="/img/quote.png" alt="quote">
-                <p class="text-xl leading-[32px] md:text-[22px] mt-10 font-semibold">{{ person.desc }}</p>
+                <img
+                  class="w-16"
+                  src="https://s3.eu-west-2.amazonaws.com/dependable.com/quote.png"
+                  alt="quote"
+                />
+                <p
+                  class="text-xl leading-[32px] md:text-[22px] mt-10 font-semibold"
+                >
+                  {{ person.desc }}
+                </p>
                 <div class="flex mt-6 mb-10 gap-2">
                   <div class="" v-for="star in person.stars" :key="star">
                     <img class="w-6" src="/svg/star.svg" alt="star" />
@@ -80,7 +90,7 @@ const prev = () => {
         </div>
         <img
           class="w-full my-10 md:mt-0 max-w-[612px]"
-          src="/img/care-group.png"
+          src="https://s3.eu-west-2.amazonaws.com/dependable.com/care-group.png"
           alt="care group"
         />
       </div>

@@ -9,10 +9,10 @@ const secondsectionbody = ref(null);
 const placeImg = ref(null);
 const lastImg = ref(null);
 const imgUrls = ref([
-  "/img/employability.png",
-  "/img/service.png",
-  "/img/staff-supply.png",
-  "/img/dcs-care.png",
+  "https://s3.eu-west-2.amazonaws.com/dependable.com/employability.png",
+  "https://s3.eu-west-2.amazonaws.com/dependable.com/service.png",
+  "https://s3.eu-west-2.amazonaws.com/dependable.com/staff-supply.png",
+  "https://s3.eu-west-2.amazonaws.com/dependable.com/dcs-care.png",
 ]);
 const mm = $gsap.matchMedia();
 const classNameToAdd = "absolute";
@@ -116,7 +116,7 @@ onMounted(() => {
   //   .to(text, { duration: 0.33, opacity: 0, y: '0%' }, 0.66)
   // })
   ctx.add(() => {
-    // placeImg.value.src = "/img/service.png";
+    // placeImg.value.src = "https://s3.eu-west-2.amazonaws.com/dependable.com/service.png";
     mm.add("(min-width: 1024px)", () => {
       $gsap.to(tooltip.value, {
         opacity: 1,
@@ -212,7 +212,7 @@ onMounted(() => {
     class="px-4 xl:px-0 w-full max-w-[1240px] mx-auto relative"
   >
     <!-- <div ref="tooltip" class=" max-w-[612px] absolute right-0">
-      <img class="tooltip-img w-full" src="/img/service.png" />
+      <img class="tooltip-img w-full" src="https://s3.eu-west-2.amazonaws.com/dependable.com/service.png" />
     </div> -->
     <div class="scroller flex w-full pb-[10rem] lg:gap-10">
       <div class="scrollable h-fit w-full flex flex-col items-start mx-auto">
@@ -303,10 +303,10 @@ onMounted(() => {
         <div
           class="img-wrap relative overflow-hidden h-[80vh] w-full max-w-[612px]"
         >
-          <img class="img-wrap-img img-1" src="/img/service.png" />
-          <img class="img-wrap-img img-2" src="/img/find.png" />
-          <img class="img-wrap-img img-3" src="/img/medicals.png" />
-          <img class="img-wrap-img img-4" src="/img/find.png" />
+          <img class="img-wrap-img img-1" src="https://s3.eu-west-2.amazonaws.com/dependable.com/service.png" />
+          <img class="img-wrap-img img-2" src="https://s3.eu-west-2.amazonaws.com/dependable.com/find.png" />
+          <img class="img-wrap-img img-3" src="https://s3.eu-west-2.amazonaws.com/dependable.com/medicals.png" />
+          <img class="img-wrap-img img-4" src="https://s3.eu-west-2.amazonaws.com/dependable.com/find.png" />
         </div> -->
         <div class="scrollable1 lg:h-[70vh]">
           <div
@@ -336,7 +336,7 @@ onMounted(() => {
             <div ref="tooltip" class="max-w-[612px] right-0 top-0">
               <img
                 class="lg:hidden tooltip-img w-full"
-                src="/img/employability.png"
+                src="https://s3.eu-west-2.amazonaws.com/dependable.com/employability.png"
               />
             </div>
           </div>
@@ -368,7 +368,7 @@ onMounted(() => {
             </div>
             <img
               class="w-full lg:hidden max-w-[612px]"
-              src="/img/service.png"
+              src="https://s3.eu-west-2.amazonaws.com/dependable.com/service.png"
             />
           </div>
         </div>
@@ -400,7 +400,7 @@ onMounted(() => {
             </div>
             <img
               class="w-full lg:hidden max-w-[612px]"
-              src="/img/staff-supply.png"
+              src="https://s3.eu-west-2.amazonaws.com/dependable.com/staff-supply.png"
             />
           </div>
         </div>
@@ -433,11 +433,11 @@ onMounted(() => {
             <img
               ref="lastImg"
               class="hidden w-full max-w-[612px] h-fit"
-              src="/img/dcs-care.png"
+              src="https://s3.eu-west-2.amazonaws.com/dependable.com/dcs-care.png"
             />
             <!-- <img
               class="lg:hidden w-full max-w-[612px]"
-              src="/img/dcs-care.png"
+              src="https://s3.eu-west-2.amazonaws.com/dependable.com/dcs-care.png"
             /> -->
           </div>
         </div>
@@ -446,14 +446,14 @@ onMounted(() => {
       <img
         ref="tooltip"
         class="tooltip-img hidden lg:block w-full max-w-[612px] h-fit right-0 top-0"
-        src="/img/employability.png"
+        src="https://s3.eu-west-2.amazonaws.com/dependable.com/employability.png"
       />
       <!-- </div> -->
       <!-- <div class="pinned-panel hidden lg:block sticky self-start w-full top-[20rem] h-[35rem]">
-        <img class="w-full h-full object-cover" src="/img/employability.png" />
-        <img class="w-full h-full object-cover" src="/img/service.png" />
-        <img class="w-full h-full object-cover" src="/img/staff-supply.png" />
-        <img class="w-full h-full object-cover" src="/img/dcs-care.png" />
+        <img class="w-full h-full object-cover" src="https://s3.eu-west-2.amazonaws.com/dependable.com/employability.png" />
+        <img class="w-full h-full object-cover" src="https://s3.eu-west-2.amazonaws.com/dependable.com/service.png" />
+        <img class="w-full h-full object-cover" src="https://s3.eu-west-2.amazonaws.com/dependable.com/staff-supply.png" />
+        <img class="w-full h-full object-cover" src="https://s3.eu-west-2.amazonaws.com/dependable.com/dcs-care.png" />
       </div> -->
     </div>
   </div>

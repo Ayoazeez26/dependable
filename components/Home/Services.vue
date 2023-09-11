@@ -23,17 +23,17 @@
             </div>
             <img
               class="w-full md:block hidden self-end md:max-w-[399px] z-[1]"
-              src="/img/assisted-img.png"
+              src="https://s3.eu-west-2.amazonaws.com/dependable.com/assisted-img.png"
               alt="assisted"
             />
             <img
               class="w-full md:hidden z-[1]"
-              src="/img/assisted-img-mob.png"
+              src="https://s3.eu-west-2.amazonaws.com/dependable.com/assisted-img-mob.png"
               alt="assisted"
             />
             <img
               class="absolute bottom-0 z-0"
-              src="/img/lines.png"
+              src="https://s3.eu-west-2.amazonaws.com/dependable.com/lines.png"
               alt="lines"
             />
           </div>
@@ -52,17 +52,17 @@
             </div>
             <img
               class="w-full self-end md:block hidden max-w-[399px] z-[1]"
-              src="/img/domiciliary-img.png"
+              src="https://s3.eu-west-2.amazonaws.com/dependable.com/domiciliary-img.png"
               alt="domiciliary"
             />
             <img
               class="w-full md:hidden z-[1]"
-              src="/img/domiciliary-img-mob.png"
+              src="https://s3.eu-west-2.amazonaws.com/dependable.com/domiciliary-img-mob.png"
               alt="domiciliary"
             />
             <img
               class="absolute bottom-0 z-0"
-              src="/img/lines.png"
+              src="https://s3.eu-west-2.amazonaws.com/dependable.com/lines.png"
               alt="lines"
             />
           </div>

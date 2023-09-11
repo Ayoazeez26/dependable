@@ -84,8 +84,13 @@ watch(message, (value) => {
     class="w-full max-w-[1240px] mx-auto py-16 md:py-12 overflow-x-hidden relative"
   >
     <div class="w-full flex flex-col items-center lg:gap-[56px]">
-      <img src="/img/contact-img.png" alt="touch" />
-      <div class="py-20 gap-6 flex justify-center border-b border-grey-4 flex-wrap">
+      <img
+        src="https://s3.eu-west-2.amazonaws.com/dependable.com/contact-img.png"
+        alt="touch"
+      />
+      <div
+        class="py-20 gap-6 flex justify-center border-b border-grey-4 flex-wrap"
+      >
         <div
           class="flex flex-col items-start gap-10 p-6 rounded-lg border border-grey-4 bg-grey-2 h-[280px] w-[327px]"
         >
@@ -132,7 +137,9 @@ watch(message, (value) => {
       <div
         class="flex flex-col items-center px-4 xl:px-0 py-20 gap-x-2 md:px-16 max-w-[619px] w-full"
       >
-        <h3 class="text-head font-semibold text-[32px] lg:text-[48px]">Message Us Directly</h3>
+        <h3 class="text-head font-semibold text-[32px] lg:text-[48px]">
+          Message Us Directly
+        </h3>
         <p class="mt-1 md:text-lg tracking-wide">
           Our friendly team would love to hear from you
         </p>

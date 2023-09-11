@@ -27,7 +27,10 @@ const breakpoints = ref({
 <template>
   <div class="px-4 xl:px-0 py-20 w-full max-w-[1240px] mx-auto">
     <div class="w-full">
-      <img src="/img/about-img.png" alt="about image" />
+      <img
+        src="https://s3.eu-west-2.amazonaws.com/dependable.com/about-img.png"
+        alt="about image"
+      />
     </div>
     <div class="flex flex-col w-full mt-16 md:mt-[120px]">
       <p class="mb-4 text-secondary">Our Values</p>
