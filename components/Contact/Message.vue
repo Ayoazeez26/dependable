@@ -81,14 +81,59 @@ watch(message, (value) => {
 </script>
 <template>
   <div
-    class="w-full max-w-[1240px] mx-auto py-[150px] md:py-[180px] overflow-x-hidden relative"
+    class="w-full max-w-[1240px] mx-auto py-16 md:py-12 overflow-x-hidden relative"
   >
-    <div
-      class="w-full flex items-start justify-between lg:gap-[56px]"
-    >
-      <div class="flex flex-col mx-4 xl:mx-0 gap-x-2 md:px-16 max-w-[592px] w-full">
-        <h1 class="text-head font-medium text-[40px]">Get In Touch</h1>
-        <p class="mt-1 text-lg tracking-wide">
+    <div class="w-full flex flex-col items-center lg:gap-[56px]">
+      <img src="/img/contact-img.png" alt="touch" />
+      <div class="py-20 gap-6 flex justify-center border-b border-grey-4 flex-wrap">
+        <div
+          class="flex flex-col items-start gap-10 p-6 rounded-lg border border-grey-4 bg-grey-2 h-[280px] w-[327px]"
+        >
+          <div class="bg-blue-2 p-2 rounded">
+            <img src="/svg/chat.svg" alt="chat" />
+          </div>
+          <div class="flex flex-col">
+            <h6 class="font-medium leading-8">Email</h6>
+            <p class="text-grey-5 mt-2 text-sm">Send them a private message</p>
+            <a
+              class="underline mt-3 text-sm"
+              href="mailto:info@dependablehealth.co.uk"
+              >info@dependablehealth.co.uk</a
+            >
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-start gap-10 p-6 rounded-lg border border-grey-4 bg-grey-2 h-[280px] w-[327px]"
+        >
+          <div class="bg-blue-2 p-2 rounded">
+            <img src="/svg/phone.svg" alt="phone" />
+          </div>
+          <div class="flex flex-col">
+            <h6 class="font-medium leading-8">Telephone</h6>
+            <p class="text-grey-5 mt-2 text-sm">Schedule a call with them</p>
+            <p class="underline mt-3 text-sm">+44 1484 506700</p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-start gap-10 p-6 rounded-lg border border-grey-4 bg-grey-2 h-[280px] w-[327px]"
+        >
+          <div class="bg-blue-2 p-2 rounded">
+            <img src="/svg/location.svg" alt="location" />
+          </div>
+          <div class="flex flex-col">
+            <h6 class="font-medium leading-8">Address</h6>
+            <p class="text-grey-5 mt-2 text-sm">Visit their office HQ</p>
+            <p class="underline mt-3 text-sm">
+              100 Smith Street Collingwood VIC 3066 AU
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-center px-4 xl:px-0 py-20 gap-x-2 md:px-16 max-w-[619px] w-full"
+      >
+        <h3 class="text-head font-semibold text-[32px] lg:text-[48px]">Message Us Directly</h3>
+        <p class="mt-1 md:text-lg tracking-wide">
           Our friendly team would love to hear from you
         </p>
 
@@ -109,7 +154,7 @@ watch(message, (value) => {
                   required
                   class="border border-grey-6 bg-transparent rounded-lg py-4 pl-6 pr-2 focus:outline-none w-full h-12"
                   :class="errorMsg.name ? 'border border-red-500' : ''"
-                  placeholder="Enter your full name"
+                  placeholder="John"
                 />
                 <span v-if="errorMsg.name" class="text-red-500 text-xs mt-1">{{
                   errorMsg.name
@@ -119,16 +164,16 @@ watch(message, (value) => {
                 >
               </div>
               <div class="w-full">
-                <label for="firstName" class="mb-2">Last Name</label>
+                <label for="lastName" class="mb-2">Last Name</label>
                 <input
-                  id="firstName"
+                  id="lastName"
                   v-model="lastname"
                   type="text"
-                  name="firstName"
+                  name="lastName"
                   required
                   class="border border-grey-6 bg-transparent rounded-lg py-4 pl-6 pr-2 focus:outline-none w-full h-12"
                   :class="errorMsg.name ? 'border border-red-500' : ''"
-                  placeholder="Enter your full name"
+                  placeholder="Doe"
                 />
                 <span v-if="errorMsg.name" class="text-red-500 text-xs mt-1">{{
                   errorMsg.name
@@ -137,44 +182,6 @@ watch(message, (value) => {
                   >There is no error message</span
                 >
               </div>
-            </div>
-            <div class="w-full">
-              <label for="companyName" class="mb-2">Company Name</label>
-              <input
-                id="companyName"
-                v-model="company"
-                type="text"
-                name="companyName"
-                required
-                class="border border-grey-6 bg-transparent rounded-lg py-4 pl-6 pr-2 focus:outline-none w-full h-12"
-                :class="errorMsg.name ? 'border border-red-500' : ''"
-                placeholder="john doe internationals"
-              />
-              <span v-if="errorMsg.name" class="text-red-500 text-xs mt-1">{{
-                errorMsg.name
-              }}</span>
-              <span v-else class="text-transparent text-xs mt-1"
-                >There is no error message</span
-              >
-            </div>
-            <div class="w-full">
-              <label for="phone" class="mb-2">Phone number</label>
-              <input
-                id="phone"
-                v-model="phone"
-                type="text"
-                name="phone"
-                required
-                class="border border-grey-6 bg-transparent rounded-lg py-4 pl-6 pr-2 focus:outline-none w-full h-12"
-                :class="errorMsg.name ? 'border border-red-500' : ''"
-                placeholder="+1(555) 000-000"
-              />
-              <span v-if="errorMsg.name" class="text-red-500 text-xs mt-1">{{
-                errorMsg.name
-              }}</span>
-              <span v-else class="text-transparent text-xs mt-1"
-                >There is no error message</span
-              >
             </div>
             <div class="w-full">
               <div class="flex flex-col w-full">
@@ -196,25 +203,6 @@ watch(message, (value) => {
                   >There is no error message</span
                 >
               </div>
-            </div>
-            <div class="w-full">
-              <label for="subject" class="mb-2">Subject</label>
-              <input
-                id="subject"
-                v-model="subject"
-                type="text"
-                name="subject"
-                required
-                class="border border-grey-6 bg-transparent rounded-lg py-4 pl-6 pr-2 focus:outline-none w-full h-12"
-                :class="errorMsg.name ? 'border border-red-500' : ''"
-                placeholder="Subject"
-              />
-              <span v-if="errorMsg.name" class="text-red-500 text-xs mt-1">{{
-                errorMsg.name
-              }}</span>
-              <span v-else class="text-transparent text-xs mt-1"
-                >There is no error message</span
-              >
             </div>
             <div class="flex w-full">
               <div class="flex flex-col w-full">
@@ -247,13 +235,12 @@ watch(message, (value) => {
                 type="submit"
                 class="liquor-btn min-w-max py-3 px-10 leading-none rounded-lg text-sm sm:text-base bg-secondary text-white w-full hover:bg-secondary/90"
               >
-                Get Started
+                Send Message
               </button>
             </div>
           </form>
         </div>
       </div>
-      <img class="w-full hidden lg:block max-w-[592px]" src="/img/touch.png" alt="touch" />
     </div>
   </div>
 </template>

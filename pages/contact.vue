@@ -1,9 +1,10 @@
 <template>
   <div class="body text-primary">
     <main>
-      <AppHeader />
+      <AboutHeader />
       <!-- <JobDropdown v-if="dataStore.job" /> -->
-      <Contact />
+      <ContactHero />
+      <ContactMessage />
     </main>
     <AppFooter />
   </div>

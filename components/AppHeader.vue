@@ -43,6 +43,16 @@
               >Services</nuxt-link
             >
           </li>
+          <li @click="open = !open">
+            <nuxt-link
+              class="hover:text-secondary hover:font-semibold cursor-pointer"
+              :class="
+                route.name === 'Contact' ? 'text-secondary font-semibold' : ''
+              "
+              to="/Contact"
+              >Contact</nuxt-link
+            >
+          </li>
         </ul>
       </div>
       <ul
@@ -78,12 +88,10 @@
             <nuxt-link to="/about">About us</nuxt-link>
           </li>
           <li class="cursor-pointer py-3" @click="open = !open">
-            <nuxt-link to="/service"
-              >Services<Icon
-                name="ic:round-keyboard-arrow-down"
-                size="24px"
-                color="#FFFFFF"
-            /></nuxt-link>
+            <nuxt-link to="/service">Services</nuxt-link>
+          </li>
+          <li class="cursor-pointer py-3" @click="open = !open">
+            <nuxt-link to="/contact">Contact</nuxt-link>
           </li>
           <div
             class="flex flex-col w-full lg:w-auto lg:flex-row lg:items-center gap-4"
