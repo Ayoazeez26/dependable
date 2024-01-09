@@ -16,7 +16,8 @@
             <h2
               class="font-semibold text-head leading-snug text-[28px] lg:leading-snug lg:text-[32px] w-full max-w-[612px]"
             >
-              Discover Your Fulfilling Healthcare Career with Wana Services
+              Discover Your Fulfilling Healthcare Career with Dependable
+              Healthcare
             </h2>
             <p class="md:text-lg mt-6 md:leading-7">
               Our Live-in care service is designed to help people with a wide
